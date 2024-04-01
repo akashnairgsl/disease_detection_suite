@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn==1.3.2
+tensorflow
+pillow
+flask
+python-dotenv
+langchain
+openai
+tiktoken
+faiss-gpu
+langchain_experimental
+"langchain[docarray]"
+langchain-openai
+pypdf

@@ -1,0 +1,50 @@
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+}
+
+
+
+.dropdown-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value as needed */
+  gap: 10px; /* Adjust the gap between dropdowns */
+  width: 80%;
+  margin: 40px auto; /* Center the container */
+}
+
+
+.agefield{
+  width: 84%;
+}
+
+.buttoncontainer {
+  margin-top: 20px; /* Add space between dropdown container and submit button */
+}
+
+.loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.result {
+  margin-top: 50px; /* Add space between submit button and result */
+}
+
+.upload-container {
+  margin-top: 100px;
+}
+
+.uploadbtncontainer{
+  margin-top: 50px;
+}
