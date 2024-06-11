@@ -72,7 +72,7 @@ function Level1() {
 
   // Options For Age
   const handleAge = (event) => {
-    setAge(event.target.value);
+    setAge(parseInt(event.target.value, 10));
   };
 
   // POST request to the server when submit button is clicked
@@ -158,6 +158,7 @@ function Level1() {
           variant="outlined"
           onChange={handleAge}
           value={age}
+          type="number"
         ></TextField>
       </div>
       <div className="buttoncontainer">
